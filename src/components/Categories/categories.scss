@@ -1,0 +1,19 @@
+@import '../../assets/styles/mixins';
+@import '../../assets/styles/variables';
+
+.categories{
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 65px;
+}
+.categories-items__block{
+  width: 30%;
+  height: 350px;
+  background-color: #9ca1a3;
+}
+.categories-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

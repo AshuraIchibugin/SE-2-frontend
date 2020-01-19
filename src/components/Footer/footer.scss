@@ -1,0 +1,35 @@
+@import '../../assets/styles/mixins';
+@import '../../assets/styles/variables';
+
+.footer-wrapper{
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-icons{
+  margin-left: 5px; 
+}
+.footer-links{
+  display: flex;
+  flex-direction: row;
+}
+.footer-links__item{
+  margin-right: 10px;
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+.footer-links__link{
+  color: #1e2124;
+}
+.footer-reserved{
+  color: #9e9d9d;
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 56px;
+}

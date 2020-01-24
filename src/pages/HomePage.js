@@ -9,7 +9,7 @@ import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
 import '../assets/styles/main.scss';
 
-function Home() {
+function HomePage() {
   return (
     <div>
       <Header />
@@ -23,4 +23,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;

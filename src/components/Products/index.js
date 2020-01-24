@@ -1,5 +1,6 @@
 import React from 'react';
 import Zoro from '../../assets/icons/zoro.png';
+import Item from '../Item';
 import './products.scss';
 
 function Products() {
@@ -35,69 +36,18 @@ function Products() {
             </li>
           </ul>
           <div className="product-cards-container">
-            <div className="product-cards-wrapper">
-              <div className="product-cards">
-                <img className="product-cards__image" src={Zoro} alt="Zoro"/>
-                <span className="product-cards__name">Name</span>
-                <p className="product-cards__price">$10</p>
-              </div>
-            </div>
-            <div className="product-cards-wrapper">
-              <div className="product-cards">
-                <img className="product-cards__image" src={Zoro} alt="Zoro"/>
-                <span className="product-cards__name">Name</span>
-                <p className="product-cards__price">$10</p>
-              </div>
-            </div>
-            <div className="product-cards-wrapper">
-              <div className="product-cards">
-                <img className="product-cards__image" src={Zoro} alt="Zoro"/>
-                <span className="product-cards__name">Name</span>
-                <p className="product-cards__price">$10</p>
-              </div>
-            </div>
-            <div className="product-cards-wrapper">
-              <div className="product-cards">
-                <img className="product-cards__image" src={Zoro} alt="Zoro"/>
-                <span className="product-cards__name">Name</span>
-                <p className="product-cards__price">$10</p>
-              </div>
-            </div>
-            <div className="product-cards-wrapper">
-              <div className="product-cards">
-                <img className="product-cards__image" src={Zoro} alt="Zoro"/>
-                <span className="product-cards__name">Name</span>
-                <p className="product-cards__price">$10</p>
-              </div>
-            </div>
-            <div className="product-cards-wrapper">
-              <div className="product-cards">
-                <img className="product-cards__image" src={Zoro} alt="Zoro"/>
-                <span className="product-cards__name">Name</span>
-                <p className="product-cards__price">$10</p>
-              </div>
-            </div>
-            <div className="product-cards-wrapper">
-              <div className="product-cards">
-                <img className="product-cards__image" src={Zoro} alt="Zoro"/>
-                <span className="product-cards__name">Name</span>
-                <p className="product-cards__price">$10</p>
-              </div>
-            </div>
-            <div className="product-cards-wrapper">
-              <div className="product-cards">
-                <img className="product-cards__image" src={Zoro} alt="Zoro"/>
-                <span className="product-cards__name">Name</span>
-                <p className="product-cards__price">$10</p>
-              </div>
-            </div>
-            <div className="product-cards-wrapper">
-              <div className="product-cards">
-                <img className="product-cards__image" src={Zoro} alt="Zoro"/>
-                <span className="product-cards__name">Name</span>
-                <p className="product-cards__price">$10</p>
-              </div>
-            </div>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
           </div>
 
         </div>

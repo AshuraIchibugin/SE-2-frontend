@@ -1,22 +1,30 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 import './header.scss';
 
-const Header =() =>{
+const Header = () => {
   return (
     <section className="header">
       <div className="container">
         <div className="header-wrapper">
           <div className="header-navigation-wrapper">
-            <div className="header-navigation__icon">
-              novur
-            </div>
+            <Link to="/">
+              <span className="header-navigation__icon">
+                novur
+                  </span>
+            </Link>
             <ul className="header-navigation">
               <li className="header-navigation__item">
-                <a href="/#" className="header-navigation__link">
-                  home
-              </a>
+                <Link to="/">
+                  <span className="header-navigation__link">
+                    home
+
+                </span>
+
+                </Link>
+
               </li>
               <li className="header-navigation__item">
                 <a href="/#" className="header-navigation__link">
@@ -24,9 +32,11 @@ const Header =() =>{
               </a>
               </li>
               <li className="header-navigation__item">
-                <a href="/#" className="header-navigation__link">
-                  shop
-              </a>
+                <Link to="/shop">
+                  <span className="header-navigation__link">
+                    shop
+                  </span>
+                </Link>
               </li>
               <li className="header-navigation__item">
                 <a href="/#" className="header-navigation__link">

@@ -2,12 +2,12 @@
 @import '../../assets/styles/variables';
 
 .blog-wrapper{
-  margin-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 100px;
-  border-bottom: black 3px solid;
+  border-top: black 3px solid;
+  padding-top: 100px;
 }
 .blog-title{
   color: #1e2124;

@@ -1,5 +1,4 @@
 import React from 'react';
-import Zoro from '../../assets/icons/zoro.png';
 import Item from '../Item';
 import './products.scss';
 

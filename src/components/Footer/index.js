@@ -13,27 +13,27 @@ function Footer() {
         </div>
           <ul className="footer-links">
             <li className="footer-links__item">
-              <a href="#" className="footer-links__link">
+              <a href="/#" className="footer-links__link">
                 home
             </a>
             </li>
             <li className="footer-links__item">
-              <a href="#" className="footer-links__link">
+              <a href="/#" className="footer-links__link">
                 featured
             </a>
             </li>
             <li className="footer-links__item">
-              <a href="#" className="footer-links__link">
+              <a href="/#" className="footer-links__link">
                 shop
             </a>
             </li>
             <li className="footer-links__item">
-              <a href="#" className="footer-links__link">
+              <a href="/#" className="footer-links__link">
                 blog
             </a>
             </li>
             <li className="footer-links__item">
-              <a href="#" className="footer-links__link">
+              <a href="/#" className="footer-links__link">
                 contact
             </a>
             </li>

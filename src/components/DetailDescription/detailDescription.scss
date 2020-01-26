@@ -1,0 +1,25 @@
+@import '../../assets/styles/mixins';
+@import '../../assets/styles/variables';
+
+.detail-description-wrapper{
+  margin-bottom: 100px;
+  display: flex;
+}
+.detail-description-actions{
+  display: flex;
+  flex-direction: column;
+  color: #1e2124;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 60px;
+  text-transform: uppercase;
+  width: 60%;
+}
+
+.detail-description-text{
+  color: #535455;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}

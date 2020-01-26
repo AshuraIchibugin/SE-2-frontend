@@ -8,7 +8,7 @@ import ProductPage from './pages/ProductPage';
 
 
 
-function AppRouter() {
+const AppRouter = () => {
   return (
     <BrowserRouter>
       <Route path="/" exact component={HomePage} />

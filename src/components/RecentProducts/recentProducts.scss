@@ -1,0 +1,14 @@
+@import '../../assets/styles/mixins';
+@import '../../assets/styles/variables';
+
+.recent-products-wrapper{
+  margin-bottom: 100px;
+}
+.recent-products-title{
+  font-family: "Barlow - Semi Bold";
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import Zoro from '../../assets/icons/zoro.png';
 import './blog.scss';
 
-function Blog() {
+const Blog = () => {
   return (
     <section className="blog">
       <div className="container">

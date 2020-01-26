@@ -3,7 +3,7 @@ import React from 'react';
 // import { faTwitter, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import './footer.scss';
 
-function Footer() {
+const Footer = () => {
   return (
     <section className="footer">
       <div className="container">

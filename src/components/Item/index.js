@@ -1,7 +1,7 @@
 import React from 'react';
 import './item.scss';
 
-function Item() {
+const Item = () => {
   return (
     <div className="item">
       <div className="item-cards-container">

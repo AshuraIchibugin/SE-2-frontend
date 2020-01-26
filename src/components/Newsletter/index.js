@@ -1,7 +1,7 @@
 import React from 'react';
 import './newsletter.scss';
 
-function Newsletter() {
+const Newsletter = () => {
   return (
     <section className="newsletter">
       <div className="container">

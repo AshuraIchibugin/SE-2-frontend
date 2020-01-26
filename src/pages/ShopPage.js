@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 import '../assets/styles/main.scss';
 import ProductList from '../components/ProductList';
 
-function ShopPage() {
+const ShopPage = () => {
   return (
     <div>
       <Header />

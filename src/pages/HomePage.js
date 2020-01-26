@@ -9,7 +9,7 @@ import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
 import '../assets/styles/main.scss';
 
-function HomePage() {
+const HomePage = () => {
   return (
     <div>
       <Header />

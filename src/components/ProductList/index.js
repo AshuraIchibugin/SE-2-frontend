@@ -2,10 +2,10 @@ import React from 'react';
 import Item from '../Item';
 import './productList.scss';
 
-function ProductsList() {
+const ProductsList = () => {
   return (
     <section className="product-list">
-      <div className="shop-container">
+      <div className="main-container">
         <div className="product-list-wrapper">
           <div className="product-list-cards">
             <Item />

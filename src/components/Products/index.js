@@ -2,7 +2,7 @@ import React from 'react';
 import Item from '../Item';
 import './products.scss';
 
-function Products() {
+const Products = () => {
   return (
     <section className="products">
       <div className="container">

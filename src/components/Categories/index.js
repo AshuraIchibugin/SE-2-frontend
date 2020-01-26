@@ -1,15 +1,14 @@
 import React from 'react';
-import Zoro from '../../assets/icons/zoro.png';
 import './categories.scss';
 
-function Categories() {
+const Categories = () => {
   return (
     <section className="categories">
       <div className="container">
         <div className="categories-items">
-          <img className="categories-items__block" src={Zoro} alt="Zoro" />
-          <img className="categories-items__block" src={Zoro} alt="Zoro" />
-          <img className="categories-items__block" src={Zoro} alt="Zoro" />
+          <div className="categories-items__block" />
+          <div className="categories-items__block" />
+          <div className="categories-items__block" />
         </div>
       </div>
     </section>

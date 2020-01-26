@@ -28,7 +28,7 @@ const Header = () => {
               </li>
               <li className="header-navigation__item">
                 <a href="/#" className="header-navigation__link">
-                  featured
+                  categories
               </a>
               </li>
               <li className="header-navigation__item">
@@ -39,9 +39,11 @@ const Header = () => {
                 </Link>
               </li>
               <li className="header-navigation__item">
-                <a href="/#" className="header-navigation__link">
-                  blog
-              </a>
+                <Link to="/blog">
+                  <span className="header-navigation__link">
+                    blog
+                  </span>
+                </Link>
               </li>
               <li className="header-navigation__item">
                 <a href="/#" className="header-navigation__link">

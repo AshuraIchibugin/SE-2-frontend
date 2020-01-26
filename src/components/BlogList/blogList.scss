@@ -1,0 +1,33 @@
+@import '../../assets/styles/mixins';
+@import '../../assets/styles/variables';
+
+.blog-list{
+  margin-top: 150px;
+}
+.blog-list-cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.blog-list-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog-list-button{
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  border: 1px solid #1e2124;
+  background-color: white;
+  color: #1e2124;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 46px;
+  text-transform: uppercase;
+  margin-bottom: 140px;
+}

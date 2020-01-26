@@ -1,5 +1,4 @@
 import React from 'react';
-import Zoro from '../../assets/icons/zoro.png';
 import './blog.scss';
 
 const Blog = () => {
@@ -12,7 +11,7 @@ const Blog = () => {
           </div>
           <div className="blog-stories-wrapper">
             <div className="blog-stories">
-              <img className="blog-stories__image" src={Zoro} alt="Zoro" />
+              <div className="blog-stories__image" />
 
               <span className="blog-stories__title">
                 Priyanka Chopra Steps out in One of
@@ -20,7 +19,7 @@ const Blog = () => {
               </span>
             </div>
             <div className="blog-stories">
-              <img className="blog-stories__image" src={Zoro} alt="Zoro" />
+              <div className="blog-stories__image" />
 
               <span className="blog-stories__title">
                 6 Ways To Make More Time in Mother
@@ -28,7 +27,7 @@ const Blog = () => {
               </span>
             </div>
             <div className="blog-stories">
-              <img className="blog-stories__image" src={Zoro} alt="Zoro" />
+              <div className="blog-stories__image" />
 
               <span className="blog-stories__title">
                 Nightly Skincare Routine – It’s More

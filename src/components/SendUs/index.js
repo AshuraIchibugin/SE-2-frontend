@@ -4,13 +4,13 @@ import './sendUs.scss';
 const SendUs = () => {
   return (
     <section className="send-us">
-      <div className="main-container">
+      <div className="main-container send-us-wrapper">
         <div className="send-form">
           <h1 className="send-form__title">send us a message</h1>
           <form className="send-form__content">
             <input className="send-form__input" type="text" />
             <input className="send-form__input" type="text" />
-            <input className="send-form__input" type="text" />
+            <input className="send-form__input third-input" type="text" />
             <button className="send-button">send message</button>
           </form>
         </div>

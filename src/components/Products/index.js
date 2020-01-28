@@ -36,17 +36,7 @@ const Products = () => {
           </ul>
           <div className="product-cards-container">
             <Item />
-            <Item />
-            <Item />
-            <Item />
-            <Item />
-            <Item />
-            <Item />
-            <Item />
-            <Item />
-            <Item />
-            <Item />
-            <Item />
+            
           </div>
 
         </div>

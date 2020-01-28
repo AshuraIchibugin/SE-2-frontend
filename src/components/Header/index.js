@@ -46,9 +46,11 @@ const Header = () => {
                 </Link>
               </li>
               <li className="header-navigation__item">
-                <a href="/#" className="header-navigation__link">
-                  contact
-              </a>
+                <Link to="/contact">
+                  <span className="header-navigation__link">
+                    contact
+                  </span>
+                </Link>
               </li>
             </ul>
           </div>

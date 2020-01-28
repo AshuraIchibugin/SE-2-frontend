@@ -2,14 +2,18 @@
 @import '../../assets/styles/variables';
 
 .item{
-  width: 22%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  // width: 80%;
+  justify-content: space-between;
 }
 
 .item-cards-wrapper{
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 110px;
-  width: 100%;
+  width: 23%;
 }
 .item-cards-container{
   display: flex;

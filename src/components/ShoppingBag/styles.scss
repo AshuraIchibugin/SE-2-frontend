@@ -1,0 +1,117 @@
+@import "../../assets/styles/mixins";
+@import "../../assets/styles/variables";
+
+.shopping {
+  margin-top: 105px;
+  &-bag {
+    width: 761px;
+    &__title {
+      margin-bottom: 45px;
+      &-name {
+        color: #1e2124;
+        font-family: "Barlow - Semi Bold";
+        font-size: 21px;
+        line-height: 56px;
+        text-transform: uppercase;
+      }
+    }
+
+    &__sections {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    &__section {
+      display: flex;
+      padding-bottom: 35px;
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 35px;
+
+      &-info {
+        display: flex;
+        margin-right: 30px;
+
+        &__count {
+          width: 10px;
+          color: #aaabab;
+          font-family: "Barlow";
+          font-size: 13px;
+          line-height: 56px;
+          text-transform: uppercase;
+          margin: 15px 40px 0 0;
+        }
+        &__image {
+          width: 120px;
+          height: 128px;
+          background-color: grey;
+        }
+      }
+
+      &-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+
+        &__title {
+          &-name {
+            color: #1e2124;
+            font-family: "Barlow";
+            font-size: 17px;
+            line-height: 56px;
+            text-transform: uppercase;
+          }
+        }
+        &__content {
+          display: flex;
+          justify-content: space-between;
+
+          &-left {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+
+            p {
+              font-family: "Barlow";
+              font-size: 12px;
+              line-height: 20px;
+              text-transform: uppercase;
+            }
+
+            span {
+              color: #6e7071;
+            }
+          }
+          .right {
+            color: #1e2124;
+            font-family: "Barlow";
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    &__buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__button {
+      width: 245px;
+      height: 50px;
+      border: 1px solid #1e2124;
+      background-color: #ffffff;
+      text-transform: uppercase;
+      font-family: "Barlow - Semi Bold";
+      font-size: 13px;
+
+      &:nth-child(2n) {
+        width: 180px;
+        height: 50px;
+      }
+
+      &:hover {
+        border: 1px solid #e0e0e0;
+      }
+    }
+  }
+}

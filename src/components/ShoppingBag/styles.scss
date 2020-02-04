@@ -3,6 +3,10 @@
 
 .shopping {
   margin-top: 105px;
+  &-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
   &-bag {
     width: 761px;
     &__title {
@@ -112,6 +116,63 @@
       &:hover {
         border: 1px solid #e0e0e0;
       }
+    }
+  }
+}
+
+.cart-totals {
+  &__title {
+    margin-bottom: 45px;
+    &-name {
+      color: #1e2124;
+      font-family: "Barlow - Semi Bold";
+      font-size: 21px;
+      line-height: 56px;
+      text-transform: uppercase;
+    }
+  }
+  &__section {
+    width: 370px;
+    height: 320px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 39px 29px 25px;
+
+    &-detail {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 25px;
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 25px;
+
+      &:nth-child(3n) {
+        margin-bottom: 30px;
+      }
+
+      &__name {
+        color: #1e2124;
+        font-family: "Barlow";
+        font-size: 13px;
+        text-transform: uppercase;
+      }
+      &__price {
+        color: #1e2124;
+        font-family: "Barlow";
+        font-size: 13px;
+      }
+    }
+    &-button {
+      width: 310px;
+      height: 50px;
+      background-color: #1e2124;
+      color: #ffffff;
+      font-family: "Barlow - Semi Bold";
+      font-size: 13px;
+      text-transform: uppercase;
+      border: none;
+      outline: none;
     }
   }
 }
